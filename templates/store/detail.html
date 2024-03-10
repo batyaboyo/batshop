@@ -31,7 +31,7 @@
                 <li class="list-inline-item m-0"><i class="fas fa-star small text-warning"></i></li>
               </ul>
               <h1>{{product.title}}</h1>
-              <p class="text-muted lead">${{product.price}}</p>
+              <p class="text-muted lead">UGX {{product.price}}/-</p>
               <p class="text-small mb-4">{{product.short_description}}</p>
 
               <div class="row align-items-stretch mb-4">
@@ -83,7 +83,7 @@
                     <div class="media mb-3"><img class="rounded-circle" src="{% static 'img/customer-1.png' %}" alt="" width="50">
                       <div class="media-body ml-3">
                         <h6 class="mb-0 text-uppercase">Jason Doe</h6>
-                        <p class="small text-muted mb-0 text-uppercase">20 May 2020</p>
+                        <p class="small text-muted mb-0 text-uppercase">March 2024</p>
                         <ul class="list-inline mb-1 text-xs">
                           <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
                           <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
@@ -97,7 +97,7 @@
                     <div class="media"><img class="rounded-circle" src="{% static 'img/customer-2.png' %}" alt="" width="50">
                       <div class="media-body ml-3">
                         <h6 class="mb-0 text-uppercase">Jason Doe</h6>
-                        <p class="small text-muted mb-0 text-uppercase">20 May 2020</p>
+                        <p class="small text-muted mb-0 text-uppercase">March 2024<10/p>
                         <ul class="list-inline mb-1 text-xs">
                           <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
                           <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
@@ -142,7 +142,7 @@
                       </div>
                     </div>
                     <h6> <a class="reset-anchor" href="{% url 'store:product-detail' rp.slug %}">{{rp.title}}</a></h6>
-                    <p class="small text-muted">${{rp.price}}</p>
+                    <p class="small text-muted">UGX {{rp.price}}-/</p>
                   </div>
                 </div>
 
