@@ -1,3 +1,3 @@
 # batzshop
 
-An e-commerce website made with Django
+A simple e-commerce website with Django
